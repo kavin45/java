@@ -21,6 +21,7 @@ public class find_middle_element_array {
 		System.out.println("Enter the array Size : ");	
 		size=s.nextInt();
 	    a=new int[size];
+	    s.close();
 		
 	}
 	public static void element()
@@ -31,6 +32,7 @@ public class find_middle_element_array {
 		{
 			a[i] =s.nextInt();	
 		}
+		s.close();
 	}
 	public  static void display()
 	{

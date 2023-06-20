@@ -34,6 +34,8 @@ public class split_num_sum_odd_even {
 		System.out.println("Sum of odd numbers : " + odd);
 		System.out.println("Sum of even numbers : " + even);
 		int diff = even - odd;
-		System.out.println("diff of even numbers and odd numbers : " + diff);
+	System.out.println("diff of even numbers and odd numbers : " + diff);
+	s.close();
 	}
+	
 }

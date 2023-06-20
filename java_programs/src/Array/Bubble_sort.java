@@ -7,10 +7,10 @@ public static void main(String args[])
 	Static.size();
 	Static.element();
 	Static.display();
-	   obj.acending();
+	   acending();
 	   obj.decending();
 }
-public void acending()
+public static void acending()
 {
 	int b[]=Static.a;
 	for(int i=0;i<b.length;i++)

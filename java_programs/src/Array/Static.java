@@ -10,13 +10,13 @@ public class Static {
 		size();
 		element();
 		display();
-		}
+		}                   
 	public static  void size()
 	{
-		Scanner s=new Scanner(System.in);
+		Scanner s=new Scanner(System.in);  
 		System.out.println("Enter the array Size : ");	
-		size=s.nextInt();
-	    a=new int[size];
+ 	    a=new int[size];
+	   // s.close();
 	    
 	}
 	public static void element()
@@ -27,7 +27,7 @@ public class Static {
 		{
 			a[i] =s.nextInt();	
 		}
-		
+		//s.close();
 	}
 	public  static void display()
 	{
@@ -37,6 +37,7 @@ public class Static {
 		{
 			System.out.println((i)+".Index Element = "+a[i]);
 		}
+		
 	}
 	
 

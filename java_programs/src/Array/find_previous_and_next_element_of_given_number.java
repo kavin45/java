@@ -43,6 +43,7 @@ public class find_previous_and_next_element_of_given_number {
 				{
 					 System.out.println("element not present in index : "+x);
 				}
+				  s.close();
 	
 	}
 

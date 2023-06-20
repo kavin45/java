@@ -18,6 +18,7 @@ public class find_the_index_of_element {
 	for (int i = 0; i < a.length; i++) {
 		a[i] = sc.nextInt();
 	}
+	
 		System.out.println();
 		System.out.println("Display the Array elements : ");
 		for(int i=0;i<a.length;i++)
@@ -26,6 +27,7 @@ public class find_the_index_of_element {
 		}
 		System.out.println("enter array element : ");
 		int c=sc.nextInt();
+		sc.close();
 		int i;
 		for( i=0;i<a.length;i++)
 		{
@@ -38,7 +40,7 @@ public class find_the_index_of_element {
 				System.out.println(c+" element is not in the array of the index : ");
 			}
 
-			
+	
 		}
 
 

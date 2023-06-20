@@ -38,7 +38,7 @@ public class Check_subset {
 		} else {
 			System.out.println("NOT subset");
 		}
-
+sc.close();
 	}
 
 }

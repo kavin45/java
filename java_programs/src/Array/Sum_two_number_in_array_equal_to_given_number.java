@@ -32,7 +32,7 @@ public class Sum_two_number_in_array_equal_to_given_number {
 				{
 					System.out.println("Not a sum of a array : "+x);
 				}
-			
+			s.close();
 }
 	
 }

@@ -27,9 +27,9 @@ public class Method_overloading {
 	public static void main(String[] args) 
 	{ 
 	  Method_overloading obj = new Method_overloading(); 
-	   obj.sum(20, 10); 
-	   obj.sum(5.5,6.5);
-	   obj.sum(10, 20, 30); 
+	   sum(20, 10); 
+	   sum(5.5,6.5);
+	   sum(10, 20, 30); 
 	   obj.sum(5,6.5);
 	   
 	  } 

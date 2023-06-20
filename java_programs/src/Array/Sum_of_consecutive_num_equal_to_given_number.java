@@ -37,7 +37,7 @@ public class Sum_of_consecutive_num_equal_to_given_number {
 					{
 						System.out.println("Not a sum of a array : "+x);
 					}
-				
+		s.close();		
 	}
 	
 	

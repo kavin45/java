@@ -24,11 +24,11 @@ public class Yamaha_overridding extends Bike_over_ridding
 		}*/
 		public static void main(String args[])
 		{
-			Bike_over_ridding  y1=new Yamaha_overridding();//upcasting
-			y1.gear();
-			y1.engine();
-			y1.speed();
-			y1.weight();
+			Bike_over_ridding  obj=new Yamaha_overridding();//upcasting
+			gear();
+			engine();
+			speed();
+			weight();
 			//y1.tyre();
 			//y1.breake();
 			
