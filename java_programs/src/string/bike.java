@@ -1,6 +1,5 @@
 package string;
 import java.util.Scanner;
-
 import java.util.Arrays;
 import java.util.Comparator;
 
@@ -108,14 +107,39 @@ public class bike {//implements Comparable<bike>{
 		Comparator c= null;
 		switch( n) {
 		case 1: {
-			c = new mileage_sort_bike();
+			c = (Object o1, Object o2)->
+			{
+				bike a1=(bike)o1;
+				bike a2=(bike)o2;
+			
+			  return a1.getMileage().compareTo(a2.getMileage()); 
+			};
 			break;}
 		case 2: {
-			c = new price_sort_bike();
+			c = (Object o1, Object o2)->
+					{
+				bike a1=(bike)o1;
+				bike a2=(bike)o2;
+				 
+				 if( a1.getPrice()> a2.getPrice()) {
+					 return 1;
+				 }
+				 else if( a1.getPrice()< a2.getPrice()) {
+					 return -1;
+				 }
+				 else 
+					 return 0;
+					 };
 			break;
 		}
 		case 3: {
-			c = new name_sort_bike();
+			c = (Object o1, Object o2)->
+			{
+				bike a1=(bike)o1;
+				bike a2=(bike)o2;
+			
+			  return a1.getName().compareTo(a2.getName()); 
+			  };
 			break;
 			}
 		default : {
