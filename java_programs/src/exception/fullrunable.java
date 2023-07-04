@@ -2,7 +2,7 @@ package exception;
 
  class One implements Runnable
 {
-	public void run() {
+	public synchronized void run() {
 			try {
 				for (int i = 0; i <=5; i++) {
 					System.out.println(" Hello " );
@@ -20,7 +20,7 @@ package exception;
 
  class Two implements Runnable
 {
-      public void run() {
+      public synchronized void run() {
 	try {
 		for (int i = 0; i <=5; i++) {
 			System.out.println(" Hai ");
